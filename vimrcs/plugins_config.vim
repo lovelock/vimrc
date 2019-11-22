@@ -1,6 +1,6 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Important:
-"       This requries that you install https://github.com/amix/vimrc !
+"       This requires that you install https://github.com/amix/vimrc !
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
@@ -182,7 +182,7 @@ let g:go_fmt_command = "goimports"
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Syntastic (syntax checker)
+" => Ale (syntax checker and linter)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:ale_linters = {
             \   'javascript': ['jshint'],
